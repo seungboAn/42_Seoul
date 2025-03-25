@@ -1,0 +1,36 @@
+[submodule "42_Libft"]
+	path = 42_Libft
+	url = https://github.com/aseungbo/42_Libft
+[submodule "42_GNL"]
+	path = 42_GNL
+	url = https://github.com/aseungbo/42_GNL
+[submodule "42_printf"]
+	path = 42_printf
+	url = https://github.com/aseungbo/42_printf
+[submodule "42_minitalk"]
+	path = 42_minitalk
+	url = https://github.com/aseungbo/42_minitalk
+[submodule "42_so_long"]
+	path = 42_so_long
+	url = https://github.com/aseungbo/42_so_long
+[submodule "42_push_swap"]
+	path = 42_push_swap
+	url = https://github.com/aseungbo/42_push_swap
+[submodule "42minishell"]
+	path = 42minishell
+	url = https://github.com/aseungbo/42minishell
+[submodule "42_philosopher"]
+	path = 42_philosopher
+	url = https://github.com/42Seoul-seuan-sajeon/42_philosopher
+[submodule "42_Cub3d"]
+	path = 42_Cub3d
+	url = https://github.com/aseungbo/42_Cub3d
+[submodule "42_CPP_Module"]
+	path = 42_CPP_Module
+	url = https://github.com/aseungbo/42_CPP_Module
+[submodule "42_webserv"]
+	path = 42_webserv
+	url = https://github.com/aseungbo/42_webserv
+[submodule "42_Inception"]
+	path = 42_Inception
+	url = https://github.com/aseungbo/42_Inception

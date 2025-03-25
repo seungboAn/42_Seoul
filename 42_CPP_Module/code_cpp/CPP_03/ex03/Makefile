@@ -1,0 +1,28 @@
+TARGET			= a.out
+
+SRCS			= main.cpp \
+					ClapTrap.cpp \
+					ScavTrap.cpp \
+					FragTrap.cpp \
+					DiamondTrap.cpp \
+
+OBJS			= $(SRCS:.cpp=.o)
+
+CXX				= clang++
+RM				= rm -f
+CXXFLAGS		= -Wall -Wextra -Werror -Wshadow  -Wno-shadow -std=c++98
+
+all:			$(TARGET)
+
+$(TARGET):		$(OBJS)
+				$(CXX) $(CXXFLAGS) $(OBJS) -o $(TARGET) 
+
+clean:
+				$(RM) $(OBJS)
+
+fclean:			clean
+				$(RM) $(TARGET)
+
+re:				fclean $(TARGET)
+
+.PHONY:			all clean fclean re
