@@ -16,7 +16,6 @@ This repository contains implementations of various projects from the 42 Seoul c
 
 ### 3. Algorithms and Data Structures
 - **42_push_swap**: Sorting algorithm implementation using two stacks
-- **ft_containers**: Implementation of C++ STL containers (Vector, Map, Stack)
 
 ### 4. Graphics and Game Development
 - **42_so_long**: A simple 2D game using MinilibX
@@ -24,14 +23,12 @@ This repository contains implementations of various projects from the 42 Seoul c
 
 ### 5. Object-Oriented Programming
 - **42_CPP_Module**: Series of C++ modules covering OOP concepts
-- **ft_containers**: Advanced C++ programming with template metaprogramming
 
 ### 6. Network and System Administration
 - **42_webserv**: HTTP/1.1 web server implementation
 - **42_Inception**: System administration with Docker containers
 
 ### 7. Full-Stack Development
-- **ft_transcendence**: Full-stack web application with real-time multiplayer game
 - **Cabi**: Web-based cabinet management system with React frontend and Spring Boot backend
 
 ### 8. Advanced Cloud & Distributed Systems
@@ -40,11 +37,11 @@ This repository contains implementations of various projects from the 42 Seoul c
 ## Learning Progression
 1. Start with C programming fundamentals (Libft, GNL, Printf)
 2. Move to UNIX system programming (Minitalk, Minishell)
-3. Learn algorithms and data structures (Push_swap, Containers)
+3. Learn algorithms and data structures (Push_swap)
 4. Explore graphics programming (So_long, Cub3d)
 5. Master object-oriented programming (CPP Modules)
 6. Dive into system administration (Webserv, Inception)
-7. Complete full-stack development (Transcendence, Cabi)
+7. Complete full-stack development (Cabi)
 8. Advanced distributed systems and cloud architecture (Populmap)
 
 ## Skills Developed
