@@ -1,6 +1,6 @@
-# 42 School Projects & Advanced Development
+# 42 Seoul Projects & Advanced Development
 
-This repository contains implementations of various projects from the 42 School curriculum and advanced development projects, organized by their learning path.
+This repository contains implementations of various projects from the 42 Seoul curriculum and advanced development projects, organized by their learning path.
 
 ## Curriculum Path
 
@@ -32,6 +32,7 @@ This repository contains implementations of various projects from the 42 School 
 
 ### 7. Full-Stack Development
 - **ft_transcendence**: Full-stack web application with real-time multiplayer game
+- **Cabi**: Web-based cabinet management system with React frontend and Spring Boot backend
 
 ### 8. Advanced Cloud & Distributed Systems
 - **populmap**: Real-time population density visualization platform using microservices architecture
@@ -43,7 +44,7 @@ This repository contains implementations of various projects from the 42 School 
 4. Explore graphics programming (So_long, Cub3d)
 5. Master object-oriented programming (CPP Modules)
 6. Dive into system administration (Webserv, Inception)
-7. Complete full-stack development (Transcendence)
+7. Complete full-stack development (Transcendence, Cabi)
 8. Advanced distributed systems and cloud architecture (Populmap)
 
 ## Skills Developed
@@ -61,5 +62,6 @@ This repository contains implementations of various projects from the 42 School 
 - Distributed systems
 - Real-time data processing
 - Microservices architecture
+- Full-stack application development
 
 Each project directory contains its own README with detailed information about specific learning objectives and implementation details.

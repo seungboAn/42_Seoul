@@ -1,26 +1,156 @@
-# 42_CPP_MODULE
+# C++ Modules
+A comprehensive introduction to Object-Oriented Programming with C++
 
-# General rules
+## Project Overview
+The C++ modules are a series of projects designed to help you understand Object-Oriented Programming principles using C++. Each module focuses on specific aspects of C++ and OOP concepts.
 
-- 헤더에 구현된 어떤 기능 (템플릿은 제외) 및 보호되지 않은 헤더는 평가 과정에서 0을 의미
-- 모든 출력은 표준 출력(standard output)으로 되어야 하며, 특별한 경우가 아니라면 항상 개행('\n')으로 끝나야함
-- 주어진 파일 이름 뒤에는 클래스 이름, 함수 이름 및 메소드 이름 뿐 아니라 문자가 와야 함
-- 기억할 것. 지금부터 하는 코딩은 C가 아닌 C++이라는 것. 그러므로
-    - *alloc, *printf, 그리고 free는 금지되며 사용 시 0으로 처리
-    - 기본적으로 표준 라이브러리에 있는 것들을 사용할 수 있음. 하지만 새로운 언어이므로 C에서 익숙한 기능들을 C++스러운 버전으로 사용해보는것이 현명함. 그리고 STL은 허용되기 전까지 사용할 수 없음(CPP08 전까지는 사용 불가능). 즉 그때까지 벡터/리스트/맵스 등등  algorithm 헤더에 포함된 것들은 모두 불가능
-- 실제로, 명시적으로 금지된 기능이나 방법은 가차없이 0점으로 처리됨
-- 따로 명시되지 않는 한 "using namespace" 와 "friend"는 금지됨. 이것들은 -42로 처리됨
-- 클래스와 연관된 파일은 따로 지정하지 않는 한 ClassName.hpp 와 ClassName.cpp 여야 함
-- 제출 디렉토리는 ex00/, ex01/, ex**/ 이어야 함
-- 예제를 철저히 읽어야 함. 예제에는 명확하지 않은 요구 사항이 있을 수 있음. 모호하면 C++을 충분히 이해하지 못한 것임
-- 외부 라이브러리는 철저히 금지됨
-- 상당히 많은 양의 클래스들을 제출해야할 수 있음. 보기 좋거나 좋아하는 에디터를 사용하지 않으면 지루할 수 있음
-- 시작 전 예제를 꼭 다 읽을 것!! 제발요 :)
-- 컴파일러는 clang++을 사용
-- -Wall -Wextra -Werror 플래그를 함께 사용해 컴파일 해야함
-- 각 includes는 다른 것들과 독립적으로 포합되어야 함. includes는 반드시 그것들이 의존하는 다른 것들을 포함해야 함
-- C++에서는 코드 스타일이 강요되지 않음. 아무 제한 없이 원하는 스타일을 사용하면 됨. 단 다른 평가자가 읽을 수 없는 코드는 점수를 매길 수 없는 코드임
-- 중요한 사항 : 서브젝트에 명시되지 않는 한 프로그램에 의해 평가되지 않음. 그러므로 예제에 어느정도의 자유가 주어짐. 그러나 각 예제에 제한을 두고 게을러지지 말것 → 즉 테스트를 많이 해볼 것
-- 제출한 코드에 관련없는 파일이 있는 것은 문제되지 않음. 요구되는 것보다 더 많은 파일에서 코드가 분할되어서 들어가도 됨. 프로그램이 결과를 채점하지 않는 한 자유롭게 평가하면 됨
-- subject에 있는 예제가 짧더라도 가능한 이 문제를 이해하기 위해 시간을 쓸 가치가 있음
-- By Odin, by Thor! Use your brain!!!
+## Learning Objectives
+
+### Module 00: Basic Concepts
+- Namespaces
+- Classes
+- Member functions
+- stdio streams
+- Initialization lists
+- Static
+- Const
+
+### Module 01: Memory Allocation
+- New and delete operators
+- References
+- File streams
+- Lifetime
+- Scope
+
+### Module 02: Ad-hoc Polymorphism
+- Operator overloading
+- Orthodox Canonical class form
+- Fixed point numbers
+- Ad-hoc polymorphism
+
+### Module 03: Inheritance
+- Inheritance
+- Access specifiers
+- Multiple inheritance
+- Diamond problem
+- Virtual inheritance
+
+### Module 04: Subtype Polymorphism
+- Abstract classes
+- Interfaces
+- Virtual functions
+- Pure virtual functions
+- Deep vs shallow copy
+
+### Module 05: Exception Handling
+- Try/Catch blocks
+- Exception classes
+- Stack unwinding
+- Exception safety
+
+### Module 06: Type Casting
+- Static cast
+- Dynamic cast
+- Reinterpret cast
+- Const cast
+- Type conversion
+
+### Module 07: Templates
+- Function templates
+- Class templates
+- Template specialization
+- Template parameters
+- Default types
+
+### Module 08: STL Containers
+- Standard Template Library
+- Containers
+- Algorithms
+- Iterators
+- Function objects
+
+## Technical Details
+
+### Key Concepts
+
+1. **Object-Oriented Programming**
+- Encapsulation
+- Inheritance
+- Polymorphism
+- Abstraction
+
+2. **Memory Management**
+- Stack vs Heap
+- RAII principle
+- Smart pointers
+- Resource management
+
+3. **C++ Specifics**
+- Standard library
+- Templates
+- Exception handling
+- Operator overloading
+
+## Implementation Guidelines
+
+### Class Structure
+```cpp
+class Sample {
+private:
+    // Private members
+    int _privateVar;
+
+public:
+    // Orthodox Canonical Form
+    Sample(void);                    // Default constructor
+    Sample(const Sample &src);       // Copy constructor
+    Sample &operator=(const Sample &rhs);  // Assignment operator
+    ~Sample(void);                   // Destructor
+
+    // Member functions
+    void memberFunc(void);
+};
+```
+
+## Testing Strategy
+
+### Basic Tests
+- Class functionality
+- Memory management
+- Exception handling
+- Template usage
+
+### Edge Cases
+- Invalid inputs
+- Resource limits
+- Error conditions
+- Type conversions
+
+### Performance Tests
+- Memory usage
+- Execution time
+- Resource management
+- Template instantiation
+
+## Skills Developed
+- Object-oriented design
+- Memory management
+- Template programming
+- Exception handling
+- STL usage
+- Code organization
+
+## Common Challenges
+1. Understanding OOP concepts
+2. Memory management
+3. Template programming
+4. Exception safety
+5. STL mastery
+
+## Best Practices
+- Follow Orthodox Canonical Form
+- Use RAII principle
+- Implement proper error handling
+- Write maintainable code
+- Document your classes
+- Use const correctness
